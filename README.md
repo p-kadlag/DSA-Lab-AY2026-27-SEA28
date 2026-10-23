@@ -1,27 +1,7 @@
-# 💻 Data Structures & Algorithms (DSA) Lab Practicals
-> **3rd Semester | Electronics & Telecommunication (ENTC) Engineering**
-
----
-
-## 👤 Student & Academic Credentials
-
-<table align="center" width="100%">
-  <tr>
-    <td><strong>Student Name</strong></td>
-    <td>Parth H. Kadlag</td>
-    <td><strong>Course Name</strong></td>
-    <td>Data Structures & Algorithms (DSA) Lab</td>
-  </tr>
-  <tr>
-    <td><strong>Roll Number</strong></td>
-    <td>SEA28</td>
-    <td><strong>Academic Year</strong></td>
-    <td>2026 - 2027</td>
-  </tr>
-  <tr>
-    <td><strong>Batch</strong></td>
-    <td>Batch: B</td>
-    <td><strong>Faculty Name</strong></td>
-    <td>Dr. Varshaa Degaonkar</td>
-  </tr>
-</table>
+# Student Name : Kadlag Parth Harish <br>
+# Roll Number : SEA28
+# Division : ENTC-A
+# Batch : B
+# Course Name : Data Structure And Algorithms
+# Academic Year : 2026-27
+# Faculty Name : Dr. Varshaa Degaonkar
