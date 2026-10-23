@@ -1,47 +1,69 @@
-*Slide 1: Title Slide**
+# Data Structures and Algorithms Lab (ET-MDM-S07) Lab Manual
 
-* Welcome the audience and introduce the project: Banking Transactions Mini Statement Generator.
+---
 
+## Practical 1
 
-* State the course context: Data Structures and Algorithms Lab.
+### Practical Title
+Program to display different patterns using numbers, alphabets, and asterisks.
 
+### Problem Statement
+Design and implement modular C programs to generate and display distinct geometric and symmetrical patterns (including half pyramids, full pyramids, diamonds, and inverted triangles) utilizing numerical sequences, English alphabets, and asterisks.
 
-* Introduce the presenting team members: Parth H. Kadlag, Anuj A. Bargale, Prathamesh Deshmukh, and Rishir M. Patil.
+### Objective
+- Understand and implement single and nested loop constructs (`for`, `while`, `do-while`).
+- Master coordinate mapping across two-dimensional grid systems (rows and columns).
+- Manipulate character representations using ASCII code mappings and format specifiers.
 
+### Algorithm/Approach
+1. Read the total number of rows ($n$) from the user.
+2. Initialize an outer loop variable $i$ from $1$ to $n$ to govern the vertical row traversal.
+3. For centered or symmetrical patterns (e.g., pyramids, diamonds):
+   - Execute a first inner loop from $1$ to $n - i$ to print the required leading whitespace characters.
+   - Execute a second inner loop to compute and print the visible elements (numbers, alphabets, or asterisks) based on the row index $i$.
+4. For alphabet-based patterns, initialize a base character variable (e.g., `'A'` or ASCII value $65$) and increment it across rows or columns as specified.
+5. Print a newline character `\n` at the completion of each outer loop iteration.
+6. For inverted or diamond patterns, mirror the above logic using a decremental outer loop running from $n - 1$ down to $1$.
 
-* Acknowledge the project guide, Dr. Varsha Degaonkar from the Dept. of Electronics and Telecommunication at I2IT.
+### Data Structure/Concept Used
+- Nested iteration control structures
+- Standard input/output streams
+- ASCII character arithmetic
 
+### Test Cases
+- **Test Case 1 (Standard Input):** $n = 5$ generates a complete five-tier pyramid/diamond.
+- **Test Case 2 (Minimal Boundary Input):** $n = 1$ renders exactly one isolated character without infinite loops or formatting errors.
+- **Test Case 3 (Invalid Input):** $n \le 0$ triggers an input validation check prompting the user for a strictly positive integer.
 
+### Sample Input and Output
+**Sample Input:**
+```text
+Enter number of rows: 4
+```
 
-**Slide 2: Outline**
+**Sample Output (Pyramid Pattern):**
+```text
+   *
+  ***
+ *****
+*******
+```
 
-* Briefly overview the presentation structure: starting with the introduction, moving into the algorithm and flowchart, explaining the program modules, discussing real-world applications, and ending with results and future scope.
+**Sample Output (Alphabet Pattern):**
+```text
+A
+B B
+C C C
+D D D D
+```
 
+### Time Complexity
+- Best, Average, and Worst Case: $O(n^2)$ due to the nested execution of row and column loops.
 
+### Space Complexity
+- Auxiliary Space: $O(1)$ since only a fixed set of scalar counter variables are maintained in memory.
 
-**Slide 3: Introduction**
+### Conclusion
+Demonstrated the application of nested loops in manipulating two-dimensional terminal layouts, establishing full control over row-column boundary limits, leading space indentation, and ASCII-based sequence generation.
 
-* Explain that the project is a menu-driven program that simulates a basic banking system based on a customer's account number.
-
-
-* Highlight the core user actions: depositing money, withdrawing money, and checking balances.
-
-
-* Mention the technical tools used: structures for holding account data, arrays to track the five most recent transactions, and file handling to save account data in a `.dat` file and generate mini-statements.
-
-
-
-**Slide 4: Algorithm**
-
-* Walk through the sequential logic: the program begins by defining a transaction structure and prompting the user for an account number and opening balance.
-
-
-* Explain the menu loop: the system reads the user's choice to deposit, withdraw, or view a statement.
-
-
-* Detail the logic checks: valid deposits are added to the balance, while withdrawals are checked against the current balance to prevent overdrafts.
-
-
-* Note that the five most recent transactions are displayed in the statement, successful transactions are saved to a file, and the menu repeats until the exit option is chosen.
-
-
+---
