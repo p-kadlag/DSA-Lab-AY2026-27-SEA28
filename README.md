@@ -25,28 +25,3 @@
     <td>Dr. Varshaa Degaonkar</td>
   </tr>
 </table>
-
----
-
-## 🚀 Execution Guide
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com
-   cd DSA-Lab-AY2026-27-SEA28
-   ```
-
-2. **Compile the Target Experiment (Using GCC)**
-   ```bash
-   gcc 06_stack_adt.c -o stack_exe
-   ```
-
-3. **Execute the Application**
-   ```bash
-   ./stack_exe
-   ```
-
----
-
-## 📝 Academic Disclaimer
-This repository serves strictly as a digital submission framework and an academic reference point for the 3rd-semester ENTC Engineering curriculum. Unauthorized duplication for evaluation purposes is discouraged. 
