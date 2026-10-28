@@ -5,8 +5,7 @@ typedef struct stud{
     int rn; 
     char name[20]; 
     char program[20]; 
-    char sub1[10], 
-    sub2[10]; 
+    char sub1[10], sub2[10]; 
     int sub1_mk, sub2_mk, total; 
     float avg; 
 }stud; 
